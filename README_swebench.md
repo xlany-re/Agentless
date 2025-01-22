@@ -19,7 +19,10 @@ First create the environment
 git clone https://github.com/OpenAutoCoder/Agentless.git
 cd Agentless
 
-conda create -n agentless python=3.11 
+conda create -n agentless python=3.11
+sudo chown -R xiaolan:staff /Users/xiaolan/.conda
+chmod 644 /Users/xiaolan/.conda/environments.txt 
+
 conda activate agentless
 pip install -r requirements.txt
 export PYTHONPATH=$PYTHONPATH:$(pwd)
