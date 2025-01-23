@@ -61,6 +61,7 @@ Installations
 ```
 pip3 install swebench-2.1.8
 ```
+SWE Bench version sourced from: https://github.com/UKGovernmentBEIS/inspect_evals/issues/167
 
 Now you are ready to run **Agentless** on the problems in SWE-bench! 
 
