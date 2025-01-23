@@ -57,6 +57,11 @@ Then export your OpenAI API key
 export OPENAI_API_KEY={key_here}
 ```
 
+Installations
+```
+pip3 install swebench-2.1.8
+```
+
 Now you are ready to run **Agentless** on the problems in SWE-bench! 
 
 > [!NOTE]
